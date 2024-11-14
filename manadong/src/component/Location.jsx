@@ -2,8 +2,8 @@ import React from "react";
 
 function Location({ location, desc }) {
   return (
-    <div class="flex flex-row items-center gap-5 bg-white w-2/4 h-60 p-3 rounded-xl border">
-      <div class="w-10 h-10 bg-[#FABDB9] items-center flex justify-center rounded-lg">
+    <div class="flex flex-row items-center md:gap-5 bg-white w-90 h-full md:w-2/4 md:h-60 p-3 rounded-xl border">
+      <div class="hidden md:w-10 md:h-10 md:bg-[#FABDB9] md:items-center md:flex md:justify-center md:rounded-lg">
         <img src="/asset/png/pin.png" />
       </div>
 
