@@ -34,7 +34,7 @@ function Navbar() {
             <li>
               <a
                 href="#"
-                class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-b"
+                class="block py-2 px-3 rounded hover:bg-[#FABDB9] md:hover:bg-transparent md:border-0 md:hover:text-[#FABDB9] md:p-0 dark:text-white md:dark:hover:text-[#FABDB9] dark:hover:bg-[#FABDB9] dark:hover:text-white md:dark:hover:bg-transparent"
               >
                 Home
               </a>
