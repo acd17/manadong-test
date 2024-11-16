@@ -3,11 +3,11 @@ import OrderNow from "../component/OrderNow";
 
 function Order() {
   return (
-    <div class="OrderPage overflow-x-hidden h-screen w-screen ">
-      <div className="flex flex-col items-center mx-20">
+    <div class="overflow-x-hidden h-screen">
+      <div className="flex flex-col items-center mx-5 md:mx-20">
         <div className="border border-[#004688] my-20 rounded-lg flex flex-row items-center w-full h-10 px-4">
           <button
-            className="flex flex-row gap-2 items-center text-[#D72F24] font-semibold"
+            className="flex flex-row gap-2 items-center text-[#D72F24] font-semibold hover:underline"
             onClick={() => window.history.back()}
           >
             <img src="/asset/png/arrow.png" alt="Back" className="w-5 h-5" />
@@ -23,14 +23,14 @@ function Order() {
           </div>
         </div>
 
-        <div className="flex flex-col items-center md:items-start mx-40">
+        <div className="flex flex-col items-center md:items-start md:mx-40">
           <p className="text-3xl font-semibold text-[#004688]">
             Order Now On :
           </p>
           <div className="bg-[#D72F24] w-12 h-1"></div>
         </div>
 
-        <div class="flex flex-row items-center justify-center gap-20 my-20">
+        <div class="flex flex-col md:flex-row items-center justify-center gap-20 my-20">
           <OrderNow image="/asset/png/GoFood.png" />
           <OrderNow image="/asset/png/Grab.png" />
           <OrderNow image="/asset/png/Shoope.png" />

@@ -5,7 +5,7 @@ function OutletName({ location }) {
     <div className="flex flex-col w-full">
       <div className="flex flex-row justify-between">
         <p className="font-semibold text-black">{location}</p>
-        <p className="flex flex-row gap-2 items-center text-[#D72F24] font-semibold">
+        <p className="flex flex-row gap-2 items-center text-[#D72F24] font-semibold hover:underline">
           Purchase Here
           <img
             src="/asset/png/arrow.png"
